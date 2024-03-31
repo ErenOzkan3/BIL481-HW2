@@ -34,12 +34,13 @@ public class TestUtil {
 
   @Test
   public void testForValidParameters(){
-    assertEquals(true, c.compute(1, 2, -4));
+    assertEquals(true, c.compute(1, 2, 3));
+    assertEquals(true, c.compute(3, 8, 7, 2, 10));
   }
 
   @Test(expected = RuntimeException.class)
   public void testForThrowedException(){
-    c.compute(0,1,2);
+    c.compute(3, 18, 7 ,0, 9);
   }
 
   @Test

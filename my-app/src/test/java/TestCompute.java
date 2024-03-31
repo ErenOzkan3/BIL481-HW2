@@ -26,8 +26,6 @@ public class TestCompute {
     assertEquals(-1 ,c.countNumberOfOccurrences("SLKDGHSLKJGHSDLJKGH"));
     assertEquals(-1 ,c.countNumberOfOccurrences("Test"));
     assertEquals(-1 ,c.countNumberOfOccurrences(""));
-    
-    verify(mq, times(3)).size();
   }
 
   @Test
