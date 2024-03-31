@@ -15,11 +15,6 @@ public class TestUtil {
   }
 
   @Test
-  public void example() { 
-    assertTrue(true); 
-  }
-
-  @Test
   public void testForParameterWithOneElement(){
     assertEquals(false, c.compute(-1));
   }

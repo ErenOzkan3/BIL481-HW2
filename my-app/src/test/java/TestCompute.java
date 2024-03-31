@@ -10,13 +10,6 @@ public class TestCompute {
   Compute c;
 
   @Test
-  public void example() {
-    MessageQueue mq = mock(MessageQueue.class);
-    c = new Compute(mq);
-    assertTrue(true);
-  }
-
-  @Test
   public void testForEmptyMq() {
     MessageQueue mq = mock(MessageQueue.class);
     c = new Compute(mq);
